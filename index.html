@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant website</title>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+<link rel="icon" type="image/x-icon" href="images/3387987.png">
+</head>
+<body>
+<!--header section begins-->
+<section class="header">
+ <a href="" class="logo"><ion-icon name="restaurant-outline"></ion-icon>Restaurant food</a>
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#food">Food</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#menu">Menu</a>
+    <a href="#order">Order</a>
+</nav>   
+<ion-icon name="menu-outline" class="menu"></ion-icon>
+
+</section>
+
+
+<!--header section ends-->
+
+<!--home section begins-->
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class=" swiper-wrapper">
+
+            <div class=" swiper-slide slide" style="background:url(images/coffee-pic.jpg) no-repeat;">
+                <div class="content">
+                <span>Outstanding Tea</span>
+                <h3>the Morning moods</h3>
+                <a href="#" class="btn">Get started</a>
+            </div>
+            </div>
+
+            <div class=" swiper-slide slide" style="background:url(images/iStock-506909230.jpg) no-repeat;">
+                <div class="content">
+                <span>Refreshments</span>
+                <h3>Refresh your mind</h3>
+                <a href="#" class="btn">Get started</a>
+            </div>
+            </div>  <div class=" swiper-slide slide" style="background:url(images/VegNews.Samosa.jpg) no-repeat ;">
+                <div class="content">
+                <span>Outstanding Snacks</span>
+                <h3>Delicious Snacks</h3>
+                <a href="#" class="btn">Get started</a>
+            </div>
+            </div>
+            
+            
+            <div class=" swiper-slide slide" style="background:url(images/foodd.jpg) no-repeat ;">
+                <div class="content">
+                <span>Outstanding food</span>
+                <h3>Delicious cooking</h3>
+                <a href="#" class="btn">Get started</a>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+</section>
+
+<!--home section begins-->
+
+<!--about section-->
+
+<section class="about" id="about">
+<div class="image">
+    <img src="images/dish2.jpg" alt="">
+    <p>Founded in 2009, Our restaurant offers mobile and online meal ordering capabilities to restaurants in thousands of cities in the US. Menufy provides digital menus on websites and in its app, from which customers can securely pay with the most options available out of all restaurant e-commerce systems.
+
+    </p>
+</div>
+<div class="content">
+    <h3 class="title">Welcome to our restaurant</h3>
+    <p>We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.</p>
+    <p>We make online ordering websites for restaurants. We are looking for you to design a restaurant website template we can re-use for multiple restaurant…</p>
+    <a href="" class="btn"> Read more</a>
+    <div class="icons-container">
+        <div class="icons">
+            <img src="images/icons8-food-and-drinks-64.png" alt="">
+            <h3>Food and drinks</h3>
+        </div>
+        <div class="icons">
+            <img src="images/icons8-fried-chicken-48.png" alt="">
+            <h3>Quality food</h3>
+        </div>
+        <div class="icons">
+            <img src="images/icons8-chef-64.png" alt="">
+            <h3>Expert chefs</h3>
+        </div>
+        
+    </div>
+</div>
+</section>
+<!--end of about section-->
+
+<!-- food section begins-->
+
+<section class="food" id="food">
+    <div class="heading">
+        <span>popular dishes</span>
+        <h3>Our delicios food</h3>
+
+    </div>
+    <div class=" swiper food-slider">
+        <div class="swiper-wrapper">
+            <div class=" swiper-slide slide" data-name="food-1">
+                <img src="images/dishes1.jpg" alt="">
+                <h3>Delious food</h3>
+                <div class="price">20,000</div>
+            </div>
+            
+            <div class=" swiper-slide slide" data-name="food-2">
+                <img src="images/food2.jpeg" alt="">
+                <h3>Delious food</h3>
+                <div class="price">15,000</div>
+            </div>
+            
+            <div class=" swiper-slide slide" data-name="food-3">
+                <img src="images/G-nut-Sauce-Luwombo.webp" alt="">
+                <h3>Delious food</h3>
+                <div class="price">13,000</div>
+            </div>
+
+            <div class=" swiper-slide slide" data-name="food-4">
+                <img src="images/red-curry-with-chicken.jpg" alt="">
+                <h3>Delious food</h3>
+                <div class="price">15,000</div>
+            </div>
+
+            <div class=" swiper-slide slide" data-name="food-5">
+                <img src="images/group_3865_0.jpg" alt="">
+                <h3>Delious food</h3>
+                <div class="price">16,000</div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+<!-- food section begins-->
+
+<!--food preview section begins-->
+<section class="food-preview-container">
+   <div id="close-preview">  <ion-icon name="close-outline"></ion-icon></div>
+<div class="food-preview " data-target="food-1">
+    <img src="images/dishes1.jpg" alt="">
+    <h3>Delious food</h3>
+    <div class="stars">
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+    </div>
+    <div class="price">20,000</div>
+    <a href="#" class="btn">buy now</a>
+</div>
+
+<div class="food-preview" data-target="food-2">
+    <img src="images/food2.jpeg" alt="">
+    <h3>Delious food</h3>
+    <div class="stars">
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+    </div>
+    <div class="price">15,000</div>
+    <a href="#" class="btn">buy now</a>
+</div>
+
+<div class="food-preview" data-target="food-3">
+    <img src="images/G-nut-Sauce-Luwombo.webp" alt="">
+    <h3>Delious food</h3>
+    <div class="stars">
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+    </div>
+    <div class="price">13,000</div>
+    <a href="#" class="btn">buy now</a>
+</div>
+
+<div class="food-preview" data-target="food-4">
+    <img src="images/red-curry-with-chicken.jpg" alt="">
+    <h3>Delious food</h3>
+    <div class="stars">
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+    </div>
+    <div class="price">15,000</div>
+    <a href="#" class="btn">buy now</a>
+</div>
+
+<div class="food-preview" data-target="food-5">
+    <img src="images/group_3865_0.jpg" alt="">
+    <h3>Delious food</h3>
+    <div class="stars">
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+        <i><ion-icon name="star-outline"></ion-icon></i>
+    </div>
+    <div class="price">16,000</div>
+    <a href="#" class="btn">buy now</a>
+</div>
+</section>
+
+<!--food preview section ends-->
+
+
+<!--gallery section begins-->
+<section class="gallery" id="gallery">
+    <div class="heading">
+         <span>Our gallery</span>
+         <h3>Our untold stories</h3>
+    </div>
+    <div class="gallery-container">
+        <a href="gallery/chicken-strips-1024x536.png" class="box">
+            <img src="gallery/chicken-strips-1024x536.png" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/ch.jpg" class="box">
+            <img src="gallery/ch.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/chips.jpg" class="box">
+            <img src="gallery/chips.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/fish.webp" class="box">
+            <img src="gallery/fish.webp" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/spaghetti.jpeg" class="box">
+            <img src="gallery/spaghetti.jpeg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/Delicious-food-at-Big-Chill-Cafe-Khan-Market-.jpg" class="box">
+            <img src="gallery/Delicious-food-at-Big-Chill-Cafe-Khan-Market-.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/ch.jpg" class="box">
+            <img src="gallery/ch.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/irish.jpg" class="box">
+            <img src="gallery/irish.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/2k--582x418.jpg" class="box">
+            <img src="gallery/2k--582x418.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/fast-food-platter.jpg" class="box">
+            <img src="gallery/fast-food-platter.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+        <a href="gallery/2k--582x418.jpg" class="box">
+            <img src="gallery/2k--582x418.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/2K-Restaurant2.jpg" class="box">
+            <img src="gallery/2K-Restaurant2.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/fast-food.jpg" class="box">
+            <img src="gallery/fast-food.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/luwombo-steamed-beef-1.jpg" class="box">
+            <img src="gallery/luwombo-steamed-beef-1.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/getlstd-property-photo.jpg" class="box">
+            <img src="gallery/getlstd-property-photo.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="" class="box">
+            <img src="gallery/food-restaurant.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/mcdonaldsglobal.jpg" class="box">
+            <img src="gallery/mcdonaldsglobal.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i> 
+        </a>
+
+        <a href="gallery/images.jpg" class="box">
+            <img src="gallery/images.jpg" alt="">
+            <i class="icon"><ion-icon name="add-outline"></ion-icon></i>  
+        </a>
+    </div>
+</section>
+<!--gallery section ends-->
+
+<!--menu section begins-->
+
+<section class="menuz" id="menu">
+    <div class="heading">
+        <span>Our menu</span>
+        <h3>Our popular dishes</h3>
+    </div>
+    <div class="menu-slider">
+        <div class="m">
+            <div class="slide">
+                <h3 class="title">Breakfast</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                        <h3>Black tea</h3>
+                        <p>Eat some breakfast, then change the world!</p>    
+                        </div>
+                        <div class="price">3,000</div>
+                    </div>
+
+                        <div class="box">
+                            <div class="info">
+                            <h3>Black coffee</h3>
+                            <p>Eat some breakfast, then change the world!</p>    
+                            </div>
+                            <div class="price">5,000</div>
+                        </div>
+
+                            <div class="box">
+                                <div class="info">
+                                <h3>Hearable tea</h3>
+                                <p>Eat some breakfast, then change the world!</p>    
+                                </div>
+                                <div class="price">6,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>African tea</h3>
+                        <p>Eat some breakfast, then change the world!</p>    
+                        </div>
+                        <div class="price">7,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>English tea</h3>
+                        <p>Eat some breakfast, then change the world!</p>    
+                        </div>
+                        <div class="price">8,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Lemon tea</h3>
+                        <p>Eat some breakfast, then change the world!</p>    
+                        </div>
+                        <div class="price">6,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>African coffee</h3>
+                        <p>Eat some breakfast, then change the world!</p>    
+                        </div>
+                        <div class="price">6,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Morning Dawa tea</h3>
+                        <p>Eat some breakfast, then change the world!</p>    
+                        </div>
+                        <div class="price">7,000</div>
+
+                </div>
+            </div>
+
+            <div class="slide">
+                <h3 class="title">Lunch</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                        <h3>Beef</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">8,000</div>
+                    </div>
+
+                        <div class="box">
+                            <div class="info">
+                            <h3>Local chicken boil</h3>
+                            <p>Everything tastes good when you're hungry.</p>    
+                            </div>
+                            <div class="price">$12,000</div>
+                        </div>
+
+                            <div class="box">
+                                <div class="info">
+                                <h3>chicken stew</h3>
+                                <p>Everything tastes good when you're hungry.</p>    
+                                </div>
+                                <div class="price">10,000</div>
+                        </div> 
+                        <div class="box">
+                        <div class="info">
+                        <h3>G.nuts & meat</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">8,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Fresh peas</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">7,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Fresh beans</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">6,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Oluwombo</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">1,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Empuuta</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">10,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Fresh fish</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">10,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>pasted Meat</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">12,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Fish in G.nuts</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">8,000</div>
+                  </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Mulokoni</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">5,000</div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <h3 class="title">Snacks</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                        <h3>Muchomo</h3>
+                        <p>Delicious snacks for everyone</p>    
+                        </div>
+                        <div class="price">8,000</div>
+                    </div>
+
+                        <div class="box">
+                            <div class="info">
+                            <h3>Sumbusa per pair</h3>
+                            <p>Delicious snacks for every one</p>    
+                            </div>
+                            <div class="price">2,000</div>
+                        </div>
+
+                            <div class="box">
+                                <div class="info">
+                                <h3>Chap</h3>
+                                <p>Delicious snacks for everyone</p>    
+                                </div>
+                                <div class="price">3,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Cabab</h3>
+                        <p>Delicious snacks for everyone</p>    
+                        </div>
+                        <div class="price">1,500</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Sandwich</h3>
+                        <p>Delicious snacks for everyone</p>    
+                        </div>
+                        <div class="price">4000</div>
+                    </div>
+                     <div class="box">
+                        <div class="info">
+                        <h3>Rolex</h3>
+                        <p>Delicious snacks for everyone</p>    
+                        </div>
+                        <div class="price">3,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Omelet</h3>
+                        <p>Delicious snacks for everyone</p>    
+                        </div>
+                        <div class="price">3000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Chips plain</h3>
+                        <p>Delicious snacks for everyone</p>    
+                        </div>
+                        <div class="price">5000</div>
+
+                    </div> <div class="box">
+                        <div class="info">
+                        <h3>African pancakes pair</h3>
+                        <p>Delicious snacks for everyone</p>    
+                        </div>
+                        <div class="price">5,000</div>
+
+                    </div> <div class="box">
+                        <div class="info">
+                        <h3>Fish fingers with chips</h3>
+                        <p>Delicious snacks for everyone</p>    
+                        </div>
+                        <div class="price">12,000</div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <h3 class="title">Chicken Specialist</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                        <h3>Deep fried chicken</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">15,000</div>
+                    </div>
+
+                        <div class="box">
+                            <div class="info">
+                            <h3>Plain fried chicken</h3>
+                            <p>Eat some breakfast, then change the world!</p>    
+                            </div>
+                            <div class="price">20,000</div>
+                        </div>
+
+                            <div class="box">
+                                <div class="info">
+                                <h3>Sweet and sour chicken</h3>
+                                <p>Eat some breakfast, then change the world!</p>    
+                                </div>
+                                <div class="price">15,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Chicken nuggets</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">13,000</div>
+
+                    </div> <div class="box">
+                        <div class="info">
+                        <h3>Chicken currey</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">8,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Chickent Tikka masala</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">16,000</div>
+                    </div> 
+                    <div class="box">
+                        <div class="info">
+                        <h3>Shredded stir fried chicken</h3>
+                        <p>Everything tastes good when you're hungry.</p>    
+                        </div>
+                        <div class="price">16,000</div>
+                    </div>
+                     <div class="box">
+                        <div class="info">
+                        <h3>Chicken Bryani</h3>
+                        <p>Everything tastes good when you're hungry.!</p>    
+                        </div>
+                        <div class="price">20,000</div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--menu section begins-->
+
+<!--order section begins-->
+
+<section id="order" class="order">
+    <div class="heading">
+        <span>order now</span>
+        <h3>fast home delievery</h3>
+    </div>
+    <form  action="">
+        <div class="box-container">
+            <div class="box">
+                <div class="inputBox">
+                    <span>First name</span>
+                    <input type="text" placeholder="enter your first name">
+                </div>
+                <div class="inputBox">
+                    <span>last name</span>
+                    <input type="text" placeholder="enter your last name">
+                </div>
+                <div class="inputBox">
+                    <span>food name</span>
+                    <input type="text" placeholder="food you want">
+                </div>
+                <div class="inputBox">
+                    <span>Order details</span>
+                    <input type="text" placeholder="specifics with food">
+                </div>
+                <div class="inputBox">
+                    <span>Your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="inputBox">
+                    <span>Phone number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+                <div class="inputBox">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many you want">
+                </div>
+                <div class="inputBox">
+                    <span>when you want</span>
+                    <input type="datetime-local">
+                </div>
+                <div class="inputBox">
+                    <span>Our address</span>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63835.98248609187!2d31.717877064663227!3d-0.33797785566901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d78e9710fa0cd3%3A0x3f370f3a43d14b0e!2sMasaka!5e0!3m2!1sen!2sug!4v1655056588726!5m2!1sen!2sug"  allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <input type="submit" value="order now" class="btn">
+    </form>
+</section>
+
+<!--order section begins-->
+
+<!--footer section begins-->
+
+<section class="footer">
+    <div class="icons-container">
+        <div class="icons">
+            <i><ion-icon name="time-outline"></ion-icon></i>
+            <h3>Opening hours</h3>
+            <p>6:30am - 10:00pm</p>
+        </div>
+        <div class="icons">
+            <i><ion-icon name="call-outline"></ion-icon></i>
+            <h3>Phone</h3>
+            <p>0752234901</p>
+            <p>0778234901</p>
+        </div>
+
+        <div class="icons">
+            <i><ion-icon name="mail-open-outline"></ion-icon></i>
+            <h3>Email</h3>
+            <p>janez88@gmail.com</p>
+            <p>janez09@yahoo.com</p>
+        </div>
+
+        <div class="icons">
+            <i><ion-icon name="map-outline"></ion-icon></i>
+            <h3>Address</h3>
+            <p>Masaka city, Uganda , Edward Avenue</p>
+        </div>
+    </div>
+    <div class="share">
+        <a href="#" class="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#" class="instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#" class="whatsapp"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        <a href="#" class="twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+    </div>
+</section>
+
+<!--footer section ends-->
+
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<!--custom js file link-->
+<script src="script.js"></script>
+<link rel="stylesheet" href="script.js">
+
+
+<!--- beginnig og script-->
+
+<script>
+    let navbar = document.querySelector('.header .navbar')
+    let menuz = document.querySelector('.menuz');
+    
+    menuz.onclick = () =>{
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
+    
+    };
+    
+    var swiper = new Swiper(".home-slider", {
+      grabCursor:true,
+      loop:true,
+      centeredSlides:true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    
+      var swiper = new Swiper(".food-slider", {
+        grabCursor:true,
+        loop:true,
+        centeredSlides:true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          700: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1000: {
+            slidesPerView: 3,
+          },
+        },
+        });
+        let PreviewContainer = document.querySelector('.food-preview-container');
+        let previewBox = PreviewContainer.querySelectorAll('.food-preview');
+    
+        document.querySelectorAll('.food .slide').forEach(food =>{
+          food.onclick = () =>{
+            PreviewContainer.style.display ='flex';
+            let name = food.getAttribute('data-name')
+            previewBox.forEach(preview =>{
+              let target = preview.getAttribute('data-target');
+              if(name == target){
+                preview.classList.add('active');
+              }
+            });
+          }
+        })
+        PreviewContainer.querySelector('#close-preview').onclick =() =>{
+          PreviewContainer.style.display ='none';
+          previewBox.forEach(preview =>{
+              close.classList.add('active');
+              if(name == target){
+            }
+          });
+        }
+    
+        lightGallery(document.querySelector('.gallery.gallery-container'));
+    </script>
+
+
+
+</body>
+</html>
