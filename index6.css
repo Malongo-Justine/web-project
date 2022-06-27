@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Poppins:wght@300;500;700&display=swap");
+:root{
+    --azure :#f0ffff;
+    --black:#222;
+    --light-grey: #666;
+    --blue:#1589ff;
+    --border : .1rem solid #ccc;
+    --light-eye:#1569c7;
+    --ghost-white:#f8f8ff;
+    --light-slate: #ccffff;
+    --white:#ffffff;
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: Poppins,sans-serif;
+}
+
+.maindiv{
+  display: flex;
+  padding-bottom: 3rem;
+  position: relative;
+  border-style: hidden;
+
+}
+
+html{
+
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding: 6rem;
+}
+.left{
+  width: 95vh;
+  height: 95vh;
+  position: relative;
+  
+}
+.left img{
+  width: 118%;
+  height: 109%; 
+  object-fit: cover;
+  padding: 0;
+ 
+  
+}
+ .left a{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  width: 250px;
+  height: 256px;
+ }
+
+ .right .icon{
+   width: .5rem;
+   height: .5rem;
+   font-size: 3rem;
+   color: var(--blue);
+  
+ }
+.right{
+  margin: 0;
+  margin-left: 10.5rem;
+
+}
+
+.right h1{
+  margin-top: 3rem;
+  color:var(--black);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 84px;
+}
+.right h2{
+  margin: 2rem;
+  font-size: 32px;
+}
+.right p{
+font-size: 11px;
+color: var(--black);
+line-height: 12px;
+font-weight: 400;
+padding-top: 15px;
+padding-bottom: 4em;
+}
+.right p a{
+  color: var(--blue);
+}
+.right .email{
+  background: var(--blue);
+  border-radius: 220px;
+  color: var(--white);
+  padding: .5rem 3rem;
+  text-decoration: none;
+  border: var(--border);
+  font-size: 15px;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+}
+.right .google{
+  background: var(--white);
+  border-radius: 20px;
+  color: var(--black);
+  padding:.5rem 5.7rem;
+  text-decoration: none;
+  font-size: 15px;
+  border: var(--border);
+  letter-spacing: 0.25px;
+  display: flex;
+  justify-content: space-between;  
+  margin-bottom: 1rem;
+}
+.google i{
+  color: #4285f4;
+}
+
+.apple{
+  background: var(--white);
+  border-radius: 20px;
+  color: var(--black);
+  padding: .5rem 5.5rem;
+  text-decoration: none;
+  font-size: 15px;
+  border: var(--border);
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  box-sizing: border-box;
+
+}
+ .google:hover{
+  background-color: var(--ghost-white);
+}
+.apple:hover{
+  background-color: var(--ghost-white);
+}
+.email:hover{
+  background-color: var(--light-eye);
+}
+.sign:hover{
+  background-color: var(--light-slate);
+}
+.account{
+  padding-bottom: 1em;
+}
+
+h5{
+   font-family: inherit;
+   overflow-wrap: break-word;
+   color: inherit;
+   font: inherit;
+   white-space: inherit;
+   padding: 0 8.5em;
+   padding-top:  20px;
+   padding-bottom:20px ;
+   
+
+   
+}
+p a{
+  text-decoration: none;
+}
+
+.sign{
+  background: var(--white);
+  border-radius: 20px;
+  color: var(--black);
+  padding: .5rem 8.3rem;
+  font-size: 14px;
+  text-decoration: none;
+  border: var(--border);
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  color: var(--blue);
+  
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  font-family: inherit;
+  font-size: 15px;
+}
+  li a{
+  
+  text-decoration: none;
+  text-shadow: var(--light-grey);
+}
+li{
+  list-style-type: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+ ul{
+  text-decoration: none;
+  font-family: arial;
+  overflow-wrap: break-word;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 400;
+
+}
+.footer a{
+  color:var(--light-grey);
+  }
+.inc{
+  color: var(--light-grey);  
+}
