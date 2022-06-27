@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend masters</title>
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="favcon.jpg">
+    <style>
+    
+        .navbar{
+            background-color: #330000;
+            border-bottom: 20px solid tomato;
+            padding-left: 3em;
+            padding: 20px;
+          
+        }
+        
+        *{
+          border: 0;
+          margin: 0;
+        
+        }
+        .navbar-nav{
+            display: flex;
+            text-align: right;
+            padding-left: 30em;
+           justify-content:space-between ;
+           
+        }
+        
+        ul{
+          display: flex;
+            text-align: end;
+            list-style-type: none;
+          
+        }
+        li{
+          padding-right: 22px;
+        }
+        li a{
+          text-decoration: none;
+        }
+        button{
+            border-radius:2.5em ;
+            padding: 0em 1em;
+            background: #c02d28;
+        }
+        
+        
+        
+        /* full-width inputs */
+input[type=text] ,
+input[type=password] {
+            width: 70%;
+            padding: 6px 10px;
+            box-sizing: border-box;
+            font-size: 16px;
+            border: 1px solid #aaa;
+            
+        }
+        form{
+          background-color:#3b3a3a ;
+          padding-bottom: 40px;
+          padding-top: 40px;
+         padding-left: 30em;
+
+        }
+        .label{
+          padding-bottom: 1em;
+        }
+        .log{
+          padding: 0.4em 10em;
+          border-radius: 0.5em;
+        }
+        .forgot{
+          color: rgb(251, 130, 109);
+        }
+
+         .login{
+          padding-right: 1em;
+    
+         
+        }
+        .loging{
+          padding: 20px 40px;
+          border: white;
+          color: white;
+          font-size: 18px;
+        }
+        label{
+          color: white;
+          font-family:Open Sans,sans-serif ;
+          font-size: 16px;
+        }
+        .remember{
+          padding-top: 20px;
+        }
+       
+     
+        .support{
+          padding-left: 40em;
+          
+          
+        }
+        .minne{
+          font-family: Open Sans,sans-serif;
+          font-size: 15px;
+          text-decoration: none;
+
+        }
+        .footer{
+          padding-left: 100px;
+          background-color:#222 ;
+          padding-top:60px;
+          padding-bottom: 40px;
+
+        }
+        .nav-apps{
+          display: flex;
+          padding-top: 4px;
+          padding-right: 50px;
+        }
+        .nav-icons{
+          padding-top: 5px;
+        }
+        .frontmas{
+          padding-left: 370px;
+          padding-top: 7px;
+          font-size: 15px;
+          font-family: Open Sans,sans-serif;
+        }
+        .google{
+          padding-left: 20px ;
+        }
+        
+    
+    </style>
+</head>
+<body>
+<!---beginning of navbar-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="fontend"><img src="frontendmasters-dark.png" alt="https://frontendmasters.com/" width="250px" height="45px" style="padding-left:50px ;" ></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" >
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+            <a class="nav-link" style="color: rgb(170, 170, 170);" href="#">Courses </a>
+            </li> 
+            <li class="nav-item" >
+              <a class="nav-link" href="#" style="color: rgb(170, 170, 170);">Learn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: rgb(170, 170, 170);">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link active" style="color: rgb(245, 245, 245);" >Login</a>
+              </li>
+            <li class="nav-item">
+             <button><a href="" class="nav-link active" style="color: rgb(245, 245, 245);" >Join Now</a></button> 
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!---end of navbar-->
+
+      <!--beginning form-->
+      <form action="action_page.php" method="post">
+        <div class="divform">
+          <label for="uname" class="label">Username</label><br>
+          <input type="text" placeholder="Username or Email" name="uname" required class="log" ><br><br>
+          <label for="psw" class="label">Password</label><br>
+          <input type="password" placeholder="Enter Password" name="psw" required class="log"><br>
+          <label class="remember" >
+            <input type="checkbox" name="remember"> Remember me
+          </label><br><br>
+          <i class="login"><button class="loging" type="submit">Login</button></i>
+          <span class="psw"> <a href="#" class="forgot">Forgot your password?</a></span>
+        </div>
+      </form>
+      <!--end of form-->
+
+
+      <footer>
+       <div class="footer">
+         <div class="nav">
+            <label for=""><img src="frontendmasters-dark.png" alt="" width="250px"></label>
+            <label><a class="nav-link" href="" style="color: rgb(170, 170, 170);">Courses</a></label>
+           <label><a class="nav-link" href="" style="color: rgb(170, 170, 170);">Learn</a></label> 
+            <label><a class="nav-link" href="" style="color: rgb(170, 170, 170);">Teachers</a></label>
+            <label><a class="nav-link" href="" style="color: rgb(170, 170, 170);">Guides</a></label>
+            <label><a class="nav-link" href="" style="color: rgb(170, 170, 170);" >Pricing</a></label>
+            <label><a class="nav-link active" href="" style="color: rgb(245, 245, 245);">Login</a></label>
+            <label><a class="nav-link" href=""style="color: #aaa;" style="color: rgb(170, 170, 170);">Join Now</a></label>
+            <label><a class="nav-link" href=""style="color: #aaa;"> FAQ</a></label>
+
+</div>
+            <div class="nav-apps">
+              <!-- App Store button -->
+              <div class="apple" >
+                <a href=""><img src="apple-app-store-badge.svg" alt="" width="150px" height="70px"></a>
+                </div>
+                  
+                <!-- Google Play button -->
+                <div class="google">
+                  <a href=""><img src="google-play-badge.png" alt="" width="160px" height="70px"></a>
+                </a> 
+              </div>
+</div>
+               <!-- Add font awesome icons -->
+               <div class="nav-icons" >
+                <a href="#" class="twitter"> <img src="icons8-twitter-48.png" alt=""></a>
+                 <a href="#" class="linkedin"> <img src="icons8-linkedin-48.png" alt=""></a>
+                <a href="#" class="facebook"><img src="icons8-facebook-48.png" alt=""></a>
+                <a href="#" class="instagram"> <img src="icons8-instagram-48.png" alt=""></a>
+                <span style="color:white ;" class="support">Email: <a href="" style="color: rgb(251, 130, 109) ; text-decoration: none;">support@frontendmasters.com</a> </span>
+      </div>
+      
+        <p style="color:rgb(170, 170, 170) ;"> <i class="minne">Frontend Masters is proudly made in Minneapolis, MN</i>  <i class="frontmas">© 2022 Frontend Masters · <a href="" style="color: #aaa; text-decoration: none;">Terms of Service</a>  · <a href="" style="color: #aaa; text-decoration: none;">Privacy Policy</a> </i></p>
+   
+       </div>
+      </footer>
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
